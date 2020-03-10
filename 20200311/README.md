@@ -45,7 +45,6 @@ https://programmers.co.kr/learn/courses/30/lessons/12901
 ```javascript
 function getDayName(a, b) {
     const date = new Date(`2016-${a}-${b}`);
-    console.log( typeof date.toString() );
     return date.toString().slice(0,3).toUpperCase()
 }
 
