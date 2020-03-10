@@ -53,5 +53,5 @@ console.log(getDayName(2, 14)); // TUE
 ```
 
 ## 4) 회고
-slice 함수는 Array만 사용 가능한 줄알았는데 Object에도 사용가능하다.
+slice 함수는 Array만 사용 가능한 줄알았는데 Object에도 사용가능하다. <br>
 toUpperCase, toLowerCase 함수를 사용하여 대문자, 소문자로 변경할 수 있는 것을 처음 알았다....
