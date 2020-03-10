@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2016년</title>
+</head>
+<body>
+
+<script>
+    function getDayName(a, b) {
+        const date = new Date(`2016-${a}-${b}`);
+        console.log( typeof date.toString() );
+        return date.toString().slice(0,3).toUpperCase()
+    }
+
+    console.log(getDayName(2, 14));
+</script>
+</body>
+</html>
