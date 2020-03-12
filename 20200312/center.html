@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>가운데 글자 가져오기</title>
+</head>
+<body>
+
+<script>
+    function solution(s) {
+      //
+      const length = s.length;
+      const division = length / 2;
+
+      if (length % 2 === 0) {
+        return s.slice(division - 1, division + 1);
+      }
+
+      return s.slice(Math.floor(division), Math.floor(division) + 1);
+    }
+
+    console.log(solution('asdf'));
+    console.log(solution('qewrtyuio'));
+</script>
+</body>
+</html>
