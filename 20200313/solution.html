@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>문자열 다루기 기본</title>
+</head>
+<body>
+
+<script>
+    function solution(s) {
+      // return s ? (s.length === 4 || s.length === 6) && /^[0-9]+$/.test(s) : false;
+      return s ? (s.length === 4 || s.length === 6) && !isNaN(s) : false;
+    }
+
+    console.log('1111', solution('1111'));
+    console.log('123456', solution('123456'));
+    console.log('a111', solution('a111'));
+    console.log('123abc', solution('123abc'));
+    console.log(null, solution(null));
+    console.log('', solution(''));
+    console.log(undefined, solution(undefined));
+    console.log(NaN, solution(NaN));
+    console.log(true, solution(true));
+    console.log(false, solution(false));
+</script>
+</body>
+</html>
