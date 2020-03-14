@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>서울에서 김서방 찾기</title>
+</head>
+<body>
+
+<script>
+  function solution(seoul) {
+    let answer = '';
+    seoul.map((item, index) => {
+      if (item === 'Kim') {
+        answer = `김서방은 ${index}에 있다`;
+      }
+    });
+    return answer;
+  }
+</script>
+</body>
+</html>
