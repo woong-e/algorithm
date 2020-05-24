@@ -1,0 +1,9 @@
+{
+  "name": "algorithm",
+  "scripts": {
+    "test": "jest --watchAll --verbose"
+  },
+  "dependencies": {
+    "jest": "^26.0.1"
+  }
+}

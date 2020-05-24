@@ -1,0 +1,22 @@
+/yarn-error.log
+
+# intellij
+/.idea/
+.idea
+*.iml
+
+node_modules/**/*
+.expo/*
+.expo-shared/*
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+web-report/
+
+# macOS
+.DS_Store
